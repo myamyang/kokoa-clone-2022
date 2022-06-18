@@ -26,22 +26,87 @@
       </div>
     </div>
 
+    <!-- kokoa clone, My profile and Friends header -->
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fa-solid fa-music fa-2x"></i></span
+        ><span><i class="fa-solid fa-gear fa-2x"></i></span>
+      </div>
+    </header>
+
+    <!-- kokoa clone, Friends-display line -->
+    <a id="friends-display-link">
+      <i class="fa-solid fa-circle-info fa-lg"></i> Friends' Names Display
+      <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a>
+
+    <!-- main line, My profile column x2, channel column x1 , Friends column x2 -->
+    <main class="friend-screen">
+      <div class="user-component">
+        <!-- kokoa clone, My Profile line -->
+        <div class="user-component__column">
+          <img
+            src="https://avatars.githubusercontent.com/u/3612017?v=4"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nicolas</h4>
+            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <!-- kokoa clone, Channel line -->
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+      </div>
+
+      <!-- kokoa clone, My friends list Line -->
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://avatars.githubusercontent.com/u/3612017?v=4"
+            class="user-component__avatar user-component__ava--sm"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              Channel
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span>2</span>
+          <i class="fa-solid fa-chevron-right fa-xs"></i>
+        </div>
+      </div>
+    </main>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-lg"></i
+            ><i class="fa-solid fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"><i class="far fa-comment fa-lg"></i></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="#"><i class="fas fa-search fa-lg"></i></a>
-        </li>
-        <li class="nav__btn">
           <a class="nav__link" href="#"
-            ><i class="fas fa-ellipsis-h fa-lg"></i
+            ><span class="nav__chatNotification">1</span
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__dotNotification"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
           ></a>
         </li>
       </ul>
