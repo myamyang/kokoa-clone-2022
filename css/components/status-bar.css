@@ -2,10 +2,12 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  position: fixed;
+
+  /* status-bar 고정은 chat.css에서  */
+  /* position: fixed;
   top: 0;
   width: 100%;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
 
 .status-bar__column {
@@ -19,7 +21,6 @@
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .status-bar__column:last-child {

@@ -1,5 +1,7 @@
 :root {
   --yellow: #fae100;
   --horizontal-space: 25px;
-  --vertical-space: 30px;
+  --vertical-space: 30px; /* header 위에 여백 추가*/
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --font-grey: rgba(0, 0, 0, 0.4);
 }

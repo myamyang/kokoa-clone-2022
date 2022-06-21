@@ -48,7 +48,7 @@
 }
 
 .login-form__input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--font-grey);
 }
 
 .login-form__a {
@@ -78,7 +78,7 @@
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--font-grey);
 }
 
 #login-form input:focus {

@@ -13,6 +13,25 @@
   font-weight: 600;
 }
 
+.screen-header__icons {
+  display: flex;
+}
+
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen-header__gear-icon {
+  position: relative;
+}
+
+.screen-header__dotNotification {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  right: -5px;
+  top: -5px;
 }

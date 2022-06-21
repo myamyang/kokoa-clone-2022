@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - kokoa Clone</title>
+    <title>More - kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -26,28 +26,20 @@
       </div>
     </div>
 
-    <!-- kokoa clone, My profile and Friends header -->
-    <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+        <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fa-solid fa-music fa-2x"></i></span>
         <div class="screen-header__gear-icon">
-          <span
-            ><a href="setting.html"><i class="fa-solid fa-gear fa-2x"></i></a
-          ></span>
-          <span class="screen-header__dotNotification"></span>
+          <span><a href="setting.html"><i class="fa-solid fa-gear fa-2x"></i></span>
+          <span class="screen-header__dotNotification"></span></a>
         </div>
       </div>
     </header>
 
-    <!-- kokoa clone, Friends-display line -->
-    <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info fa-lg"></i> Friends' Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
-    <!-- main line, My profile column x2, channel column x1 , Friends column x2 -->
-    <main class="main-screen">
+    <!-- main line -->
+    <main class="main-screen more-screen">
       <div class="user-component">
         <!-- kokoa clone, My Profile line -->
         <div class="user-component__column">
@@ -57,37 +49,46 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Nicolas</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-
-      <!-- kokoa clone, Channel line -->
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
-        </div>
-      </div>
-
-      <!-- kokoa clone, My friends list Line -->
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://avatars.githubusercontent.com/u/3612017?v=4"
-            class="user-component__avatar user-component__ava--sm"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">
-              Channel
-            </h4>
+            <div class="user-component__sub">
+              <h6 class="user-component__subtitle">+1 787 666 999</h6>
+              <i class="fa-solid fa-circle-exclamation fa-lg"></i>
+            </div>
           </div>
         </div>
         <div class="user-component__column">
-          <div>
-            <span>2</span>
-            <i class="fa-solid fa-chevron-right fa-xs"></i>
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+      <!-- kokoa clone, Calender, imoticons etc. line -->
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-calendar-check"></i><span>Calender</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-face-smile"></i><span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i><span>themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice-dollar"></i><span>Account</span>
+        </div>
+      </div>
+      <!-- kokoa clone, more-suggestions line -->
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions__icon-text">KoKoa Story</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions__icon-text">KoKoa Story</span>
           </div>
         </div>
       </div>
@@ -97,7 +98,7 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
+            ><i class="fa-regular fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">

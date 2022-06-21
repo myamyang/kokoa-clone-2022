@@ -8,19 +8,26 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
   color: #2f363e;
   font-family: "Open Sans", sans-serif;
 }
 
-header {
+/* status-bar 고정은 chat.css에서 */
+/* header {
   margin-top: var(--vertical-space);
-}
+} */
 
 .main-screen {
   padding: 0px var(--horizontal-space);
