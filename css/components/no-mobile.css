@@ -1,5 +1,5 @@
 #no-mobile {
-  position: absolute;
+  position: fixed; /* absolute from chat.html 😖 */
   z-index: 99;
   height: 100vh;
   width: 100vw;
